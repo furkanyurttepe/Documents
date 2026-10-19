@@ -4,11 +4,11 @@ October 2026
 
 ## Package overview
 
-This package takes 9 weeks at roughly 5–6 hours per week: about 48 hours of coursework plus 8–10 hours of hands-on practice. The goal is to turn Claude into an active working partner for day-to-day technical project management and technical sales, and to build the skills needed to manage AI projects.
+After a preparation week (Week 0), this package takes 9 weeks at roughly 5–6 hours per week: about 48 hours of coursework plus 8–10 hours of hands-on practice. The goal is to turn Claude into an active working partner for day-to-day technical project management and technical sales, and to build the skills needed to manage AI projects.
 
-- **Profile:** Mechanical engineer; experience in technical sales and technical project management; Claude 101 and Claude Code 101 completed.
+- **Target audience:** Technical project managers, technical sales professionals and professionals with an engineering background; no software knowledge required.
 - **Platforms:** Anthropic Academy (anthropic.skilljar.com), PMI (pmi.org), Anthropic GitHub (github.com/anthropics/courses), Coursera (audit mode), Claude Code for PMs (ccforpms.com).
-- **Logic:** Conceptual foundations first, then prompting skills, then automation with Claude, AI project management, and finally technical depth. Every module ends with a hands-on task drawn from your own work.
+- **Logic:** Tool and account setup first, then conceptual foundations, prompting skills, automation with Claude, AI project management, and finally technical depth. Every module ends with a hands-on task drawn from your own work.
 
 ## Weekly plan
 
@@ -16,6 +16,10 @@ Take the courses in the order below; durations marked (e) are estimates.
 
 | Week | Module | # | Course (link) | Platform | Duration |
 | --- | --- | --- | --- | --- | --- |
+| 0 | 0 – Preparation | P1 | [Claude 101](https://anthropic.skilljar.com/claude-101) | Anthropic Academy | ~1–2 h (e) |
+| 0 | 0 – Preparation | P2 | [Claude Code 101](https://anthropic.skilljar.com/claude-code-101) | Anthropic Academy | ~1–2 h (e) |
+| 0 | 0 – Preparation | P3 | [Claude Code for PMs – 0.1 Installation](https://ccforpms.com/getting-started/installation) | Claude Code for PMs | 15 min |
+| 0 | 0 – Preparation | P4 | [Introduction to GitHub](https://skills.github.com/) | GitHub Skills | < 1 h |
 | 1 | 1 – Foundations | 1 | [AI Fluency: Framework & Foundations](https://anthropic.skilljar.com/ai-fluency-framework-foundations) | Anthropic Academy | ~4 h (e) |
 | 1 | 1 – Foundations | 2 | [Generative AI Overview for Project Managers](https://www.pmi.org/shop/p-/elearning/EL083) | PMI | 1 h |
 | 1 | 1 – Foundations | 3 | [AI Capabilities and Limitations](https://anthropic.skilljar.com/ai-capabilities-and-limitations) | Anthropic Academy | ~1 h (e) |
@@ -37,6 +41,25 @@ Take the courses in the order below; durations marked (e) are estimates.
 | 9 | Capstone | 19 | Capstone project | Your own workflow | 6–8 h |
 
 ## Module details
+
+### Module 0 – Preparation (Week 0, ~4–5 h)
+
+Goal: Get tools, accounts and basic usage skills ready before starting the package.
+
+- **Claude 101:** Using Claude for everyday work tasks, core features and further resources.
+- **Claude Code 101:** Using Claude Code effectively in your daily workflow.
+- **Claude Code for PMs – 0.1 Installation:** Installing Claude Desktop and Claude Code, so you are ready for the Claude Code for PMs lessons in Week 4.
+- **Introduction to GitHub (GitHub Skills):** Core concepts such as repos, commits and pushes; for storing your files on GitHub and working in a repo with Claude Code.
+
+Account and tool checklist:
+
+- [ ] Claude Pro or Max subscription active (required for Claude Code and Claude Code for PMs)
+- [ ] Claude Desktop installed, Claude Code running
+- [ ] Anthropic Academy (Skilljar) account created
+- [ ] Free PMI account created
+- [ ] Coursera account created
+- [ ] SSH key added to your GitHub account
+- [ ] Practice: Create and clone a GitHub repo, then commit and push a file with Claude Code.
 
 ### Module 1 – Foundations (Week 1, ~6 h)
 
@@ -115,7 +138,7 @@ Automate a real workflow end to end with Claude. Suggested topic: the weekly pro
 
 ## Notes and sources
 
-- **Durations:** Durations for the PMI, Coursera, Google and Claude Code for PMs (Modules 0–1) courses, and the Agent Skills video length (~30 min), come from the course pages; other durations marked (e) are estimates and exclude practice time.
+- **Durations:** Durations for the PMI, Coursera, Google, GitHub Skills and Claude Code for PMs (Modules 0–1, Installation) courses, and the Agent Skills video length (~30 min), come from the course pages; other durations marked (e) are estimates and exclude practice time.
 - **Cost:** All courses are currently free; Data Landscape is free for PMI members only, and Coursera courses are free in audit mode (certificate is paid). Claude Code for PMs is free but requires a Claude Pro or Max subscription. Check current status before enrolling.
 - **GitHub tutorial:** Running the exercises in code requires an Anthropic API key (small usage cost). Free alternative: read the content and do the exercises directly in a Claude chat.
 - **Order:** This order follows the learning flow; it is not identical to the priority ranking.
