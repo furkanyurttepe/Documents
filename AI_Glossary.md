@@ -196,3 +196,37 @@ Hooks are configured in `settings.json`.
 A plugin **can contain** automation (a hook or a scheduled task), but most
 plugins run only when you ask. Automation can also exist **without** a plugin —
 a single scheduled task or hook is enough.
+
+## 10. ISO 9001 analogies
+
+For readers who know quality management systems. These are **analogies, not
+equivalences**: they help place an AI term in familiar territory, but the AI
+term is not a formal ISO requirement. Clause numbers refer to ISO 9001:2015.
+
+| AI term | ISO 9001 analogy | Clause |
+|---|---|---|
+| **Skill / prompt template** | Work instruction, procedure, form | 7.5 Documented information |
+| **CLAUDE.md** | Organisational knowledge kept with the process | 7.1.6 Organisational knowledge |
+| **Data governance** | Control of documented information | 7.5.3 |
+| **Grounding / decision log** | Records as evidence of conformity | 7.5 |
+| **Use case / PRD** | Requirements for products and services; design inputs | 8.2, 8.3.3 |
+| **PoC / pilot** | Design verification and validation | 8.3.4 |
+| **Model card** | Design and development outputs (technical file) | 8.3.5 |
+| **Third-party model or API (e.g. Claude)** | Control of externally provided processes | 8.4 |
+| **Guardrails** | Production under controlled conditions | 8.5.1 |
+| **Hook** | Mistake-proofing (poka-yoke): actions to prevent human error | 8.5.1 g |
+| **Human-in-the-loop** | Release of products and services after planned checks | 8.6 |
+| **Hallucination** | Nonconforming output | 8.7, 10.2 |
+| **Eval / benchmark** | Monitoring, measurement, analysis and evaluation | 9.1 |
+| **Subagent as reviewer / red teaming** | Internal audit — independent check of the work | 9.2 |
+| **Bias** | Systematic error (as in measurement) | 7.1.5 |
+| **PII, GDPR / KVKK, EU AI Act** | Statutory and regulatory requirements | 4.2, 8.2.2 |
+| **Iterating on prompts, skills or models** | Continual improvement | 10.3 |
+
+### AI-specific ISO standards
+
+| Standard | What it covers |
+|---|---|
+| **ISO/IEC 42001** | AI management system — built on the same high-level structure as ISO 9001, so it can be integrated with an existing QMS |
+| **ISO/IEC 23894** | Guidance on AI risk management |
+| **ISO/IEC 22989** | AI concepts and terminology |
