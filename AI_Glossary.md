@@ -153,3 +153,46 @@ Short definitions, grouped by topic.
 | **Copilot / assistant** | AI that works alongside a person, who stays in control |
 | **Autonomy level** | How much an AI decides and acts on its own versus asking a human |
 | **Vibe coding** | Building software by describing what you want to an AI in plain language |
+
+## 9. Working concepts
+
+### Pseudocode
+
+| Term | Meaning |
+|---|---|
+| **Pseudocode** | Writing the logic of a program step by step in plain language, without the rules of a real programming language. Useful for explaining an automation or hook to a developer or to Claude before it is built |
+
+```
+IF a new email arrives
+    summarise the email
+    save the summary as a draft
+ELSE
+    wait
+```
+
+### Hook events in Claude Code
+
+A hook is a command that runs **every time** a given event happens — unlike an
+instruction in a skill or CLAUDE.md, which Claude follows most of the time.
+Hooks are configured in `settings.json`.
+
+| Event | When it fires | Example use |
+|---|---|---|
+| **PreToolUse** | Before Claude uses a tool | Block edits to certain files |
+| **PostToolUse** | After Claude uses a tool | Format code or run tests after a file is edited |
+| **UserPromptSubmit** | When you send a message | Add context to the message automatically |
+| **Stop** | When Claude finishes its work | Send you a notification |
+| **SessionStart** | When a session starts | Load the project's current status |
+
+### Plugin vs automation
+
+| | Plugin | Automation |
+|---|---|---|
+| **What it is** | A **package** that adds capabilities to Claude (skills, subagents, commands, hooks, connectors) | A task that runs **without manual steps** |
+| **Question it answers** | *What can Claude do?* | *Does the work happen by itself?* |
+| **Analogy** | A toolbox | A machine that runs on its own |
+| **Example** | An application-adaptation plugin with cover-letter and CV skills | "Every Monday at 09:00, prepare the weekly report" |
+
+A plugin **can contain** automation (a hook or a scheduled task), but most
+plugins run only when you ask. Automation can also exist **without** a plugin —
+a single scheduled task or hook is enough.
